@@ -1,0 +1,53 @@
+@import "cards.css";
+@import "blog.css";
+@import "footer.css";
+
+body{
+    font-family:"Arial", "Helvetica", "sans-serif";
+    background-color:#bee6d0;
+    max-width:100%;
+}
+.fixed-header{
+    background-color:#bee6d0;
+    width:100%; 
+    position:fixed;
+    top:0;
+
+}
+header{
+    font-family:"Montserrat", sans-serif;
+    position:absolute;
+    left:20px;
+}
+nav{
+    font-family: 'Open Sans Condensed', sans-serif;
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    margin:25px auto;
+}
+nav > li{
+    font-size:20px;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+
+
+/* Midium Screen */
+@media(min-width: 600px) and (max-width:900px){
+    nav > li{
+        margin-right:30px;
+        margin-left:30px;
+    }
+}
+
+/* Large Screen */
+@media(min-width: 901px){
+    nav > li{
+        margin-right:40px;
+        margin-left:40px;
+    }
+}
