@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -19,17 +20,20 @@
             </header>
             <!--Navigator-->
             <nav>
-                <li>BLOG</li>
+                <li><a href="main.html">BLOG</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </nav>
         </div>
         
         <div class="blog-post">
-            <h3>Jul 24 - Written by Miyu</h3>  
+            <h3 class="date">Jul 24 - Written by Miyu</h3>  
             <h1>Blog Post Five</h1>
-            <img src="Images/litter.jpg" alt="Litter overflowing" width="80%" height=auto>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci modi officiis ipsam quod aperiam maiores dicta enim quia nihil minus molestias, officia deleniti impedit similique rem ab voluptas, amet velit eaque quidem iure! Quibusdam, suscipit vitae optio tempora dolor reprehenderit? Rem eveniet totam et quo? Magni ut consequatur ex suscipit quae optio minus? Placeat voluptatum illo soluta eum quaerat voluptates deleniti quod veritatis maiores? Repellendus possimus nam voluptatem exercitationem cumque harum, quo veniam! Esse voluptatem natus magni aliquam omnis autem illo aliquid eum eveniet accusantium accusamus id dignissimos dolore molestias, illum totam corrupti hic rem maiores? Laudantium provident minus facilis eum earum atque, tempora laboriosam saepe, unde dolores eaque natus nemo, molestiae accusamus. Accusantium quia officiis incidunt quisquam est nemo ab commodi in voluptatum. Laboriosam sequi laudantium veniam sunt voluptatum ipsum iusto at tempora, amet inventore maxime aliquam! Minus repudiandae adipisci numquam, at non repellat velit, tempore a quia, doloremque consequuntur maiores aspernatur voluptas quidem dolorum voluptatibus laborum minima facere nemo mollitia suscipit. Esse accusamus reiciendis, possimus, enim distinctio inventore facilis adipisci deserunt non necessitatibus repellendus eligendi modi quasi amet provident sequi quam nihil voluptatem mollitia. Illum rerum odio dolorum autem, eaque deserunt accusamus omnis recusandae, reiciendis ullam sit laudantium in. Consequuntur, esse cupiditate. Vero dignissimos modi molestias accusantium natus alias libero accusamus minus debitis suscipit, delectus nulla velit quaerat, eaque laudantium qui tenetur neque. Ipsa in, harum nesciunt alias officia aut molestias minima placeat blanditiis odio quo qui. Quae modi iure minima! Obcaecati quis sit nihil, eligendi asperiores magni tenetur, ad veritatis ipsum aut, mollitia architecto laudantium excepturi odio. Vel dolor nisi magni expedita? Aut tempore harum earum dolor autem molestiae nobis magnam facere quasi! Iste veniam ex architecto rem facere ad doloremque sequi. Modi minus magni aperiam, non quae nihil itaque consectetur provident et aspernatur eligendi reprehenderit.</p>
+            <figure>
+                <img src="Images/litter.jpg" alt="Litter overflowing" width="80%" height=auto>
+                <figcaption>Overflowing litter on the street</figcaption>
+            </figure>
+            <p id="blog-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci modi officiis ipsam quod aperiam maiores dicta enim quia nihil minus molestias, officia deleniti impedit similique rem ab voluptas, amet velit eaque quidem iure! Quibusdam, suscipit vitae optio tempora dolor reprehenderit? Rem eveniet totam et quo? Magni ut consequatur ex suscipit quae optio minus? Placeat voluptatum illo soluta eum quaerat voluptates deleniti quod veritatis maiores? Repellendus possimus nam voluptatem exercitationem cumque harum, quo veniam! Esse voluptatem natus magni aliquam omnis autem illo aliquid eum eveniet accusantium accusamus id dignissimos dolore molestias, illum totam corrupti hic rem maiores? Laudantium provident minus facilis eum earum atque, tempora laboriosam saepe, unde dolores eaque natus nemo, molestiae accusamus. Accusantium quia officiis incidunt quisquam est nemo ab commodi in voluptatum. Laboriosam sequi laudantium veniam sunt voluptatum ipsum iusto at tempora, amet inventore maxime aliquam! Minus repudiandae adipisci numquam, at non repellat velit, tempore a quia, doloremque consequuntur maiores aspernatur voluptas quidem dolorum voluptatibus laborum minima facere nemo mollitia suscipit. Esse accusamus reiciendis, possimus, enim distinctio inventore facilis adipisci deserunt non necessitatibus repellendus eligendi modi quasi amet provident sequi quam nihil voluptatem mollitia. Illum rerum odio dolorum autem, eaque deserunt accusamus omnis recusandae, reiciendis ullam sit laudantium in. Consequuntur, esse cupiditate. Vero dignissimos modi molestias accusantium natus alias libero accusamus minus debitis suscipit, delectus nulla velit quaerat, eaque laudantium qui tenetur neque. Ipsa in, harum nesciunt alias officia aut molestias minima placeat blanditiis odio quo qui. Quae modi iure minima! Obcaecati quis sit nihil, eligendi asperiores magni tenetur, ad veritatis ipsum aut, mollitia architecto laudantium excepturi odio. Vel dolor nisi magni expedita? Aut tempore harum earum dolor autem molestiae nobis magnam facere quasi! Iste veniam ex architecto rem facere ad doloremque sequi. Modi minus magni aperiam, non quae nihil itaque consectetur provident et aspernatur eligendi reprehenderit.</p>
         </div>
         <!----back and next article-->
         <div class="back-and-next">
@@ -40,28 +44,28 @@
         <footer>
             <!-- About -->
             <div class="about">
-                <h2 id="about">About</h2>
-                <img src="Images/miyu.jpg" alt="Picture of author" width="80" height="100">
+                <h1 id="about">About</h1>
+                <img class="profile" src="Images/miyu.jpg" alt="Picture of author" width="80" height="100">
                 <h3>Miyu ieki</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia deleniti quo ea consectetur earum praesentium voluptatibus commodi. Eligendi optio eos est numquam possimus quod earum distinctio expedita, officia doloribus architecto? Autem, eligendi. Cumque nemo aperiam deserunt maxime rerum quia, ipsum cupiditate molestias mollitia repudiandae corrupti?</p>
+                <p class="introduction">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia deleniti quo ea consectetur earum praesentium voluptatibus commodi. Eligendi optio eos est numquam possimus quod earum distinctio expedita, officia doloribus architecto? Autem, eligendi. Cumque nemo aperiam deserunt maxime rerum quia, ipsum cupiditate molestias mollitia repudiandae corrupti?</p>
             </div>
             <!-- Contact -->
             <div class="contact">
-                <h2 id="contact">Contact</h2>
+                <h1 id="contact">Contact</h1>
                 <div id="contact-container">
-                    <img src="Images/address.png" alt="address" width="40" height="40">
-                    <p>Medellín Colombia</p>
-                    <img src="Images/whatsapp.png" alt="phone number" width="40" height="40">
-                    <p>+57 314 4044768</p>
-                    <img src="Images/mail.png" alt="mail address" width="40" height="40">
-                    <p>95miumiu@gmail.com</p>
+                    <img class="contact-img" src="Images/address.png" alt="address">
+                    <address>Medellín Antioquia Colombia</address>
+                    <img class="contact-img" src="Images/whatsapp.png" alt="phone number">
+                    <p class="contact-info">+57 314 4044768</p>
+                    <img class="contact-img" src="Images/mail.png" alt="mail address">
+                    <p class="contact-info">95miumiu@gmail.com</p>
                 </div>
             </div>
             <!-- Social Media -->
             <div class="social-media">
-                <img src="Images/linkedin.png" alt="linkedin" width="30" height="30">
-                <img src="Images/facebook.svg" alt="facebook" width="30" height="30">
-                <img src="Images/twitter.png" alt="twitter" width="30" height="30">
+                <img class="social" src="Images/linkedin.png" alt="linkedin">
+                <img class="social" src="Images/facebook.svg" alt="facebook">
+                <img class="social" src="Images/twitter.png" alt="twitter">
             </div>
         </footer> 
     </body>
